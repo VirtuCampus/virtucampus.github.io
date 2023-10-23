@@ -1,8 +1,14 @@
-.page{
+#title_page{
     margin-top: 20px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    padding: 10px 0px 10px 0px;
+    border: 10px;
+    border-style: double;
+    border-radius: 1px;
 }
-#Features_style{
-    margin-left: 100px
+#Introduction_to_features {
+    margin-right: 120px;
+    margin-left: 120px;
+    text-align: justify;
 }
