@@ -1,14 +1,35 @@
-#title_page{
-    margin-top: 20px;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 10px 0px 10px 0px;
-    border: 10px;
-    border-style: double;
-    border-radius: 1px;
+#title_page {
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px 0px 10px 0px;
+  border: 10px;
+  border-style: double;
+  border-radius: 10px;
 }
 #Introduction_to_features {
-    margin-right: 120px;
-    margin-left: 120px;
-    text-align: justify;
+  margin-top: 20px;
+  margin-right: 45px;
+  margin-left: 45px;
+  text-align: justify;
+  font-size: larger;
 }
+#features {
+  display: inline;
+}
+.Ind_features_1 {
+  display: inline;
+}
+#Real-Time_GPS,
+#Building_Information,
+#Customizable_Paths,
+#Social_Features,
+#Offline_Acces,
+#Virtual_Tours {
+  width: 300px;
+}
+.container {
+  width: 100%;
+  height: 100px;
+  background-color: lightgray;
+  }
