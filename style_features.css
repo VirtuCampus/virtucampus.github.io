@@ -12,7 +12,9 @@
   margin-right: 45px;
   margin-left: 45px;
   text-align: justify;
-  font-size: larger;
+  font-size: larger;   .para {
+            display: inline-block;
+}
 }
 #features {
   display: inline;
@@ -26,10 +28,7 @@
 #Social_Features,
 #Offline_Acces,
 #Virtual_Tours {
-  width: 300px;
+  font-size: large;
+  width: 1000px;
+  display: inline-block;
 }
-.container {
-  width: 100%;
-  height: 100px;
-  background-color: lightgray;
-  }
