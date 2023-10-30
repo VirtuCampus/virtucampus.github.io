@@ -2,6 +2,9 @@
 <head>
 <title>VirtuCampus</title>
 <style>
+    body {
+    font-family: Arial, Helvetica, sans-serif; 
+    }
 button {
     position:absolute; 
     left: 1350px; top:450px; border: 2px solid black;
@@ -9,7 +12,7 @@ button {
     text-align: center;
     border-radius: 12px;
     background-color: rgba(57, 116, 77, 0.852);
-    
+    font-size: medium;
 }
 button:hover {
     background-color: rgb(70, 116, 77);
@@ -71,6 +74,7 @@ h2 {
 </style>
 
 </head>
+<body>
 
         <div id="header" >
             <h1 id = "title"> Pricing </h1>
@@ -84,9 +88,10 @@ h2 {
         </a>  
 
         </div>
-<div>
-    <h1>How much do student pay?</h1>
-<p id="pricingP1"> This software tool is a tool meant to freely guide students through their Campus. </p>
+<div style="position:absolute; top: 150px; left:750px; ">
+
+    <h1 id ="jav">How much do student pay?</h1>
+<p id="pricingP1">  </p>
 </div>
 
 <img class="image" src="./images/uottawaCampus.jpg" style="transform: scale(0.6); position:absolute;
@@ -103,4 +108,15 @@ h2 {
 <p>Contact us</p>
 </button>
 </a>
+</body>
+<script>
+
+    function func(){
+    document.getElementById('jav').innerHTML = 'Students pay nothing!';
+    document.getElementById('pricingP1').innerHTML = 'This software tool is a tool meant to freely guide students through their Campus.';
+
+    }
+
+    setTimeout(func, 2000)
+    </script>
 </html>
