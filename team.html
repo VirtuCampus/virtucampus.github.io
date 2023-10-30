@@ -1,15 +1,20 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <div class="container">
-          <a href="index.html">Home</a>
-          <a href="features.html">Features</a>
-          <a href="pricing.html">Pricing</a>
-          <a href="team.html">team</a>
+        <div id="header" >
+            <h1 id = "title"> Meet Our Team</h1>
+            <div id = "header2">
+                <a href="features.html">Features</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="team.html">Team</a>
+                <a href="index.html">
+            </div>
+                <img id="Logo" src="./images/VirtuCampus_logo.png">
+        </a>  
         </div>
     </head>
       <body>
-        <center><h1 id = "title"> Meet Our Team</h1></center>
+        
     <div id = "team">   
             <div>
                 <h2 class = "header">
@@ -46,12 +51,44 @@
             </div>  
     </div>
     <style>
-       #team {
-        margin-top:80px;
-}       
+  
+        #header {
+        background-color:#bfd917;
+        padding: 20px;
+        margin-top: -10px;
+        border-top-style: solid;
+        margin-left: -10px;
+        margin-right: -10px;    
+        border-bottom: 2px solid black;
+        
+        }
+        #title { 
+            text-align: center;
+        }
+        #header2 {
+            float:right;
+            width:80%;
+            text-align:right;
+}
+        #header2 a{
+            display:inline-block;
+            padding:30px 10px;
+            margin:0 10px;
+            text-decoration:none;
+            position: relative; bottom: 70px;
+        }
+        #Logo {
+            height: auto;
+            width: 200px;
+            float: left;
+            position: relative; bottom: 70px;
+            padding: 20px;
+        }
+
+
         .header {
             margin-left: 440px;
-            margin-bottom:65px; 
+            margin-bottom:10px; 
             color: #AEA885;  
 }
         .linkden:link {
