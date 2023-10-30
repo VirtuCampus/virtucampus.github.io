@@ -1,0 +1,33 @@
+Overall vibe
+
+==================================================================
+
+Our website should look simplistic and clean
+It should be easy for the user to navigate
+
+colours
+
+=============================
+
+-#ECE3CE
+-#739072
+-#4F6F52
+-#3A4D39
+
+fonts
+
+=======================
+
+We will be using Arial
+
+
+
+Links
+=========
+They will not be underlined
+
+
+buttons
+============
+they will be flat designed and change colors shades when hovering over it
+
