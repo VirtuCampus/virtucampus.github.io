@@ -1,3 +1,4 @@
+
 #Introduction_to_features {
   margin-top: 25px;
   margin-right: 45px;
@@ -7,15 +8,42 @@
 }
 #features {
   display: inline;
+} 
+
+body {
+  background-image: url("campusphoto.png");
+  background-size: cover;
+  background-attachment: fixed;
 }
 .Ind_features_1 {
   background-color: #AEA885;
   border: 1px solid #f7e7ce;
   border-radius: 5px;
-  padding: 20px;
-  margin: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
   display: inline-block;
-  width: 30%;
+  width: 160px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Ind_features_2 {
+  background-color: #AEA885;
+  border: 1px solid #f7e7ce;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  width: 160px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 #Real-Time_GPS,
 #Building_Information,
@@ -23,6 +51,18 @@
 #Social_Features,
 #Offline_Acces,
 #Virtual_Tours {
-  font-size: medium;
-  width: 300px;
+  font-size: large;
+  border-radius: 5px;
+  width: 200px;
+  text-align: justify;
+  justify-content: center;
+  background-color:#f7e7ce;
+  border: 1px solid black;
+  height: 175px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
 }
