@@ -1,109 +1,154 @@
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="style_features.css" />
-    <title>Features | VirtuCampus</title>
-    <div id="header" >
-      <h1 id = "title">Features</h1>
-      <div id = "header2">
-          <a href="features.html">Features</a>
-          <a href="pricing.html">Pricing</a>
-          <a href="team.html">Team</a>
-          <a href="index.html">
-      </div>
-          <img id="Logo" src="./images/VirtuCampus_logo.png">
-  </a>  
-  </div>
-
-  </head>
-  <body>
-    <center>
-    
-      <div>
-        <div>
-          <p id="Introduction_to_features">
-            
-            Welcome to the ultimate solution that makes your life on campus effortless. 
-            Say goodbye to the endless search for classrooms and
-            facilities, and embrace a smarter, more intuitive way to navigate your
-            college life. Our 3D mapping service is tailor-made for students just
-            like you, making sure you never miss a beat. With an array of
-            groundbreaking features, we're setting a new standard in campus
-            navigation. Enjoy your journey with us, where finding your way means
-            more time for what truly matters: your education and campus
-            experience.
-          </p>
-        </div>
-        </center>
-
-
-        <div class="container">
-            <div>
-            <h2 class="Ind_features_1">Real-Time GPS Integration</h2>
-            <img class ="image_2" src = "Real-timeGPS.png">
-            <p id="Real-Time_GPS">
-              This feature is essential for precise campus navigation, ensuring
-              YOU can quickly and accurately find your way around campus.
-            </p>
-            </div>
-
-            <div>
-            <h2 class="Ind_features_1">Building and Facility Information</h2>
-            <img class = "image_2" src = "Building_inf.jpg">
-            <p id="Building_Information">
-              Providing detailed information about campus buildings and facilities
-              enhances convenience and efficiency for students looking for
-              specific rooms or services.
-            </p>
-            </div>
-
-            <div>
-            <h2 class="Ind_features_1">Customizable Paths</h2>
-            <img class ="image_2" src = "Path.png">
-            <p id="Customizable_Paths">
-              Allowing you to set preferences for your routes based on factors
-              like accessibility, convenience, or avoiding construction, ensuring
-              you with a personalized and efficient experience.
-            </p>
-            </div>
-
-            
-            <div>
-            <h2 class="Ind_features_2">Social Features</h2>
-            <img class ="image_2" src = "">
-            <p id="Social_features">
-              Ability to connect with others on campus. You can share your
-              location, set meeting points, or find friends in real-time.
-            </p>
-            </div>
-          
-          <div>
-            <h2 class="Ind_features_2">Offline Access</h2>
-            <img class ="image_2" src = "">
-            <p id="Offline_Acces">
-              Ensure that users can download campus maps for offline use. This can
-              be helpful when cellular signals are weak or nonexistent.
-            </p>
+    <head>
+        <title>Features | VirtuCampus</title>
+        <nav id="header" >
+          <h1 id = "title">Features</h1>
+          <div id = "header2">
+              <a href="features.html">Features</a>
+              <a href="pricing.html">Pricing</a>
+              <a href="team.html">Team</a>
+              <a href="index.html">
           </div>
-          <div>
-            <h2 class="Ind_features_2">Virtual Tours</h2>
-            <img class ="image_2" src = "">
-            <p id="Virtual_Tours">
-              Virtual tours of campus landmarks, showcasing your institution's
-              history and culture.
-            </p>
-        </div>
-
+              <img id="Logo" src="./images/VirtuCampus_logo.png">
+      </a>  
+        </nav>
+      <section class="services" id="services">    
+    <h1 class="heading">Our&nbspFeatures</h1>
+    <body>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/icon-1.svg" alt="" />
+        <h3>Real-Time GPS Integration</h3>
+        <p>
+          This feature is essential for precise campus navigation, ensuring
+          YOU can quickly and accurately find your way around campus.
+        </p>
       </div>
+      <div class="box">
+        <img src="images/icon-2.svg" alt="" />
+        <h3>Building and Facility Information</h3>
+        <p>
+          Providing detailed information about campus buildings and facilities
+          enhances convenience and efficiency for students looking for
+          specific rooms or services.
+        </p>
+      </div>
+      <div class="box">
+        <img src="images/icon-3.svg" alt="" />
+        <h3>Customizable Paths</h3>
+        <p>
+          Allowing you to set preferences for your routes based on factors
+          like accessibility, convenience, or avoiding construction, ensuring
+          you with a personalized and efficient experience.
+        </p>
+      </div>
+      <div class="box">
+        <img src="images/icon-4.svg" alt="" />
+        <h3>Social Features</h3>
+        <p>
+          Ability to connect with others on campus. You can share your
+          location, set meeting points, or find friends in real-time.
+        </p>
+      </div>
+      <div class="box">
+        <img src="images/icon-5.svg" alt="" />
+        <h3>Offline Access</h3>
+        <p>
+          Ensure that users can download campus maps for offline use. This can
+          be helpful when cellular signals are weak or nonexistent.        </p>
+      </div>
+      <div class="box">
+        <img src="images/icon-6.svg" alt="" />
+        <h3>Virtual Tours</h3>
+        <p>
+          Virtual tours of campus landmarks, showcasing your institution's
+          history and culture.
+        </p>
+      </div>
+    </div>
+    </body>
+  </section>
 
-      <style>
+  <style>
+.heading {
+    width: 400px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-inline-start: 36%;
+    text-align: center;
+    justify-items: center;
+    border-radius: 1rem;
+    border: 1px;
+    background-color: white;
+
+  }
+
+  body {
+    max-width: 100%;
+  background-image: url("campusphoto.jpg"); /* The image used */
+  background-color: #511717; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-attachment: fixed;
+}
+
+  
+  .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 5rem;
+  }
+  
+   .box-container .box {
     
-        #header {
+    background-color: #f7e7ce;
+  
+    border: 1px solid black;
+  
+    text-align: center;
+    border-radius: 1rem;
+    padding: 3rem;
+  }
+  
+  .box-container .box img {
+    margin-bottom: 2rem;
+  }
+  
+  .box-container .box h3 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+   .box-container .box p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: var(--light-color);
+  }
+  
+  .box-container .box:hover {
+    color: var(--black);
+  }
+  
+  .box-container .box:hover h3,
+  .box-container .box:hover p {
+ 
+    color: var(--white);
+  }
+  
+.box-container .box:hover img {
+    filter: invert(100%);
+  }
+
+  #header {
         background-color:#f7e7ce;
         padding: 20px;
+        max-width: 100%;
         margin-top: -10px;
         border-top-style: solid;
-        margin-left: -10px;
-        margin-right: -10px;
+        margin-left: -8px;
+        margin-right: -8px;
         border-bottom: 2px solid black;
     
         }
@@ -138,7 +183,4 @@
             margin-left: 300px;
     }
     
-    </style>
-
-  </body>
-</html>
+  </style>
