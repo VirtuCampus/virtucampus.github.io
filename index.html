@@ -1,31 +1,200 @@
 <!DOCTYPE html>
-<html>
-<head>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>VirtuCampus</title>
-   <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="hero">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VirtuCampus</title>
+    <!-- fontawesome cdn / Got this from youtube--> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-        <video autoplay loop muted plays-inline class="back-video">
-            <source src="images/video.mp4" type="video/mp4">
-        </video>
+  <body>
+    <div class="homepage">
 
-        <nav>
-            <img src="images/VirtuCampus_logo.png" class="logo">
-            <ul>
-               <li><a href="index.html">Home</a></li>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="team.html">Team</a></li>
-            </ul>
-        </nav>
-        <div class="content">
-            <h1>VirtuCampus</h1>
-            <a href="features.html">Explore Our Features!</a>
-        </div>
-    </div>
+      <video autoplay loop muted plays-inline class="back-video">
+          <source src="images/video.mp4" type="video/mp4">
+      </video>
+
+      <div class="content">
+          <h1>VirtuCampus</h1>
+          <a href="#features">Explore Our Features!</a>
+      </div>
+  </div>
 
 </body>
+
+    <!-- header section starts -->
+    <header class="header">
+      <a href="#"></a>
+      <a class="menu fas fa-bars"></a>
+      <nav class="navbar">
+        <img src="images/VirtuCampus_logo.png" class="logo">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#team">Team</a>
+      </nav>
+    </header>
+    <!-- header section ends -->
+
+
+    <!-- features section starts -->
+    <section class="features" id="features">
+      <h1 class="heading">Our Features</h1>
+      <div class="box-container">
+        <div class="box">
+        <h3>Real-Time GPS Integration</h3>
+        <p>
+          This feature is essential for precise campus navigation, ensuring
+          YOU can quickly and accurately find your way around campus.
+        </p>
+        </div>
+        <div class="box">
+          <h3>Building and Facility Information</h3>
+          <p>
+            Providing detailed information about campus buildings and facilities
+            enhances convenience and efficiency for students looking for
+            specific rooms or services.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Customizable Paths</h3>
+          <p>
+            Allowing you to set preferences for your routes based on factors
+            like accessibility, convenience, or avoiding construction, ensuring
+            you with a personalized and efficient experience.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Social Features</h3>
+          <p>
+            Ability to connect with others on campus. You can share your
+            location, set meeting points, or find friends in real-time.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Offline Access</h3>
+          <p>
+            Ensure that users can download campus maps for offline use. This can
+            be helpful when cellular signals are weak or nonexistent.        
+          </p>
+        </div>
+        <div class="box">
+          <h3>Virtual Tours</h3>
+        <p>
+          Virtual tours of campus landmarks, showcasing your institution's
+          history and culture.
+        </p>
+        </div>
+      </div>
+    </section>
+    <!-- features section ends -->
+
+    <!-- pricing section starts -->
+    <section class="pricing" id="pricing">
+      <h1 class="heading">Our Pricing</h1>
+      <center>
+        <h2 id="Pricinginfo">Pricing varies by instutition, contact us for an estimate of your institution. <br>However, our users enjoy free service of our campus navigation system.<br>With the choice of in-app purchases, for more personal features, such as our Customizable Paths.</h2>
+      </center>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/uottawaCampus.jpg" alt="" />
+            <div class="content">
+              <h3>University of Ottawa Campus</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- pricing section ends -->
+
+    <!-- team section starts -->
+    <section class="team" id="team">
+      <div><center><h1 id="TitleTeam">Meet Our Team</h1></center></div>   
+ 
+    <div id = "team">
+      <div>
+          <h2 class = "headerteam">
+              <a class = "linkden" href = "https://www.linkedin.com/in/ali-alnader-825585297/" target = "_blank">Ali Alnader</a>
+          </h2>
+          <img class ="image" src = "./images/Ali stickman v2.jpg">
+          <p class = "para">  Ali is a first year Software Engineering student at the University Of Ottawa. <br> He is very passionate and ready to learn coding at all times. Ali has many <br>ambitions in life and one of them is to use his software engineering skills and <br> coding skills to make the world a better place for everyone. Ali aspires to<br> become one of the best full stack developers in the world and to end up working at<br> big tech companies such as Google, Apple, Microsoft, and Shopify.  </p>
+      </div>
+      <div>
+          <h2 class = "headerteam"> 
+              <a class = "linkden"  href = "https://www.linkedin.com/in/justin-el-chibani-0b0936284/" target = "_blank">Justin El-Chibani</a>  
+          </h2>
+          <img class ="image" src = "./images/Ali stickman v2.jpg">
+          <p class = "para"> I'm an ecstatic software engineering student at the University of Ottawa! I have <br> decided to pursue my passion in software engineering to continue my studies <br> in web development, WHICH YOU ARE CURRENTLY LOOKING AT, as well <br>as building and designing innovative database in the technology field. </p>
+      </div>
+      <div>
+          <h2 class = "headerteam">Kyle Schuessler</h2>
+          <img class ="image" src = "./images/Ali stickman v2.jpg">
+          <p class = "para">My name is Kyle Schuessler. I was born and raised in Ottawa, and am currently enrolled<br> in uOttawa's software engineering program. Additionally, I am one of the<br> founding members of Vitrucampus, and am eager to continue working on connecting<br> students on University campuses. </p>
+      </div>
+      <div>
+          <h2 class = "headerteam">
+              <a class = "linkden" href = "https://www.linkedin.com/in/alexmcivor/" target = "_blank">Alex McIvor</a>
+          </h2>
+          <img class ="image" src = "./images/Ali stickman v2.jpg">
+          <p class = "para">I'm an eager student at Uottawa pursuing an undergraduate in software engineering.<br>I am thrilled to continue my studies in web development and backend coding and <br> to continue learning the fundamentals of software.</p>
+      </div>
+      <div>
+          <h2 class = "headerteam">
+              <a class = "linkden" href = "https://www.linkedin.com/in/ryan-unsworth-67a048293/" target = "_blank">Ryan Unsworth</a> 
+          </h2>
+          <img  class ="image" src = "./images/Ali stickman v2.jpg">
+          <p class = "para">My name is Ryan Unsworth, and I'm a passionate software engineering student at the <br> university of Ottawa. I love everything coding from web development to data <br>collection and I’m thrilled to provide you with this ever growing service which is Virtucampus.</p>
+      </div> 
+      <div class = "myclass">
+          <form>
+              <h3>CONTACT US</h3>
+              <input type = "text" id = "Name" Placeholder = "Name" rquired> 
+              <input type = "email" id = "Email" Placeholder = "Email address" rquired> 
+              <input type = "text" id = "Phone" Placeholder = "Phone" rquired> 
+              <textarea id = "Message" row = "4" placeholder="How can we help you? "></textarea>
+              <button type = "Submit"> Send </button>
+          </form>
+      </div> 
+
+</div>
+</section>
+    <!-- team section ends -->
+
+    <!-- footer section starts -->
+    <section class="footer">
+      <a href="#" class="logo"><br></a>
+      <img src="images/VirtuCampus_logo.png" class="logo">
+      <p>
+        Not only your campus navigation system <br>but also your University Hub.
+      </p>
+      <div class="socials">     <!-- Got this from youtube -->
+        <ion-icon name="logo-google"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-youtube"></ion-icon>
+      </div>
+      <ul class="FooterAsks">
+        <a href="Privacy_policy.html">Privacy Policy</a>
+        <a href="Terms_of_Use.html">Terms of Use</a>
+        <a> &copy; 2023 VitruCampus. All rights reserved.</a>
+    </ul>
+    </section>
+    <!-- footer section ends -->
+
+    <!-- Got this from youtube -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script> 
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>     <!-- Got this from youtube -->
+
+
+    <!-- local js file -->
+    <script src="script.js"></script>
+  </body>
 </html>
